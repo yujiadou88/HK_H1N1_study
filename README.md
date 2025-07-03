@@ -2,7 +2,7 @@
 
 ## 1. Study overview
 
-Following the emergence of pandemic 2009 influenza A (H1N1), we conducted a household transmission study based on a similar protocol to our earlier [trial of non-pharmaceutical interventions](), to establish the basic household epidemiology of novel H1N1 and compare with seasonal influenza.
+Following the emergence of pandemic 2009 influenza A (H1N1), we conducted a household transmission study based on a similar protocol to our earlier trial of non-pharmaceutical interventions, to establish the basic household epidemiology of novel H1N1 and compare with seasonal influenza.
 
 In July and August 2009 we recruited subjects presenting to outpatient clinics (in both the private and public sectors across Hong Kong) with influenza-like-illness of \<48 hours duration. After influenza was confirmed in an index case by the QuickVue Influenza A+B rapid test the household of the index subject was recruited to our household transmission study. We aimed to conduct an initial home visit within 36 hours of recruitment, and evaluate subsequent infections by self-reported daily symptom diaries and home visits after 3 and 6 days. Nose and throat swabs were collected from index subjects and all household contacts at each home visit and tested by RT-PCR. The primary outcome measure was laboratory-confirmed influenza infection in a household contact by RT-PCR; the secondary outcome was clinically diagnosed influenza by self-reported symptoms. We collected acute and convalescent sera from a subset of participants and tested for antibody titers to seasonal and pandemic influenza.
 
