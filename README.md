@@ -70,7 +70,7 @@ Publication of anonymised raw data has been approved by our local IRB and fundin
 
 ## Publications
 
-1.  Cowling BJ, Chan KH, Fang VJ, et al. Comparative epidemiology of pandemic and seasonal influenza A in households. *New England Journal of Medicine*, 2010; **362**:2175-84. [[link]](http://content.nejm.org/cgi/content/abstract/362/23/2175) [[PubMed]](http://www.ncbi.nlm.nih.gov/pubmed/20558368).
+1.  Cowling BJ, Chan KH, Fang VJ, et al. Comparative epidemiology of pandemic and seasonal influenza A in households. *New England Journal of Medicine*, 2010; **362**:2175-84. [[link]](https://www.nejm.org/doi/full/10.1056/NEJMoa0911530) [[PubMed]](http://www.ncbi.nlm.nih.gov/pubmed/20558368).
 
 ## Acknowledgements
 
