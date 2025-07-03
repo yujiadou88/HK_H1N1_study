@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+BODY{ 
+  background: #FFFFCC; color: black;
+  margin:10px 10px 0px 10px;
+  padding:0px;
+  font-family: arial, sans-serif;
+}
+
+#leftcontent {
+  position: absolute;
+  left:10px;
+  top:60px;
+  width:200px;
+  background:#FFFFCC;
+}
+
+#centercontent {
+  background:#FFFFCC;
+  margin-left: 199px;
+  margin-right:199px;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  margin-left: 201px;
+  margin-right:201px;
+}
+
+html>body #centercontent {
+  margin-left: 201px;
+  margin-right:201px;
+}
+
+#rightcontent {
+  position: absolute;
+  right:10px;
+  top:50px;
+  width:200px;
+  background:#FFFFCC;
+}
+    
+#banner {
+  background:#FFFFCC;
+  height:50px;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  height:49px;
+}
+html>body #banner {
+  height:49px;
+}
+        
+P,H1,PRE {
+  font-family: arial, sans-serif;
+  margin:10px 0px 10px 0px;
+}   
+        
+#banner H1 {
+  font-family: arial, sans-serif; color: #0000FF;
+  padding:10px 10px 0px 10px;
+  margin:0px;
+  text-align: center
+}
+        
+#leftcontent H3 {
+  font-family: arial, sans-serif; color: #666666;
+  padding:20px 0px 5px 0px;
+  margin:0px;
+}
+
+#leftcontent A:link {
+  font-family: arial, sans-serif; color: #666666;
+}
+
+#leftcontent A:visited {
+  font-family: arial, sans-serif; color: #999999;
+}
+
+#rightcontent H3 {
+  font-family: arial, sans-serif; color: #666666;
+  padding:20px 0px 5px 0px;
+  margin:0px;
+}
+
+#rightcontent A:link {
+  font-family: arial, sans-serif; color: #666666;
+}
+
+#rightcontent A:visited {
+  font-family: arial, sans-serif; color: #999999;
+}
+
+#centercontent H3 {
+  font-family: arial, sans-serif; color: #0000FF;
+  padding:20px 0px 5px 0px;
+  margin:0px;
+}
+
+#centercontent H4 {
+  font-family: arial, sans-serif; color: #0000FF;
+  padding:10px 0px 5px 0px;
+  margin:0px;
+}
+
+#centercontent IMG{
+  border: 0;
+}
+    
+#centercontent UL{
+  font-family: arial, sans-serif;
+}
+    
+#centercontent OL.roman {
+  font-family: arial, sans-serif;
+  list-style: lower-roman;
+}
+
+#centercontent UL.circle {
+  font-family: arial, sans-serif;
+  list-style: circle;
+}
+
+#centercontent A:link{
+  font-family: arial, sans-serif; color: #0000FF;
+}
+
+#centercontent A:visited{
+  font-family: arial, sans-serif; color: #000080;
+}
+
+#centercontent code{
+  color: #663366;
+}

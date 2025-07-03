@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+
+<title>Hong Kong pandemic (H1N1) 2009 transmission study | Data and R syntax</title>
+
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="Author" content="Ben Cowling">
+<meta name="date" content="2009-01-05T17:15:30+08:00">
+<meta name="keywords" lang="en" 
+  content="influenza, masks, handwashing, statistics, reproducible">
+<meta name="description" CONTENT="Data and reproducible statistical analyses for
+the Hong Kong study of non-pharmaceutical interventions against
+influenza transmission in households.">
+
+<link href="npi_style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+  <!-- spam protection
+  BC="bcow"+"ling"+"@hk"+"u.hk";
+  // -->
+</script>
+
+</head>
+
+<body>
+
+<div id="banner">
+<h1 class="center">Hong Kong pandemic (H1N1) 2009 transmission study</h1>
+</div>
+
+<div id="leftcontent">
+
+<h3>Contents</h3>
+
+<p><a href="#overview">1. Study overview</a><br>
+<a href="#data">2. Data</a><br>
+<a href="#main">3. Main findings</a><br>
+<a href="#further">4. Further work</a><br>
+<a href="#authors">Authors</a><br>
+<a href="#comment">Reproducibility</a><br>
+<a href="#references">References</a><br>
+<a href="#acknowledgements">Acknowledgements</a><br></p>
+
+</div>
+
+<div id="centercontent">
+
+<h3><a name="overview">1. Study overview</a></h3>
+
+<p>Following the emergence of pandemic 2009 influenza A (H1N1), we
+conducted a household transmission study based on a similar protocol to
+our earlier
+<a href="http://www.hku.hk/bcowling/influenza/HK_NPI_study.htm"
+  title="Hong Kong NPI study">trial of non-pharmaceutical
+interventions</a>, to establish the basic household epidemiology of
+novel H1N1 and compare with seasonal influenza.</p>
+
+<p>In July and August 2009 we recruited subjects presenting to outpatient 
+clinics (in both the private and public sectors across Hong Kong) with 
+influenza-like-illness of <48 hours duration. After influenza was
+confirmed in an index case by the QuickVue Influenza A+B rapid test
+the household of the index subject was recruited to our household
+transmission study. We aimed to conduct an initial home
+visit within 36 hours of recruitment, and evaluate subsequent
+infections by self-reported daily symptom diaries and home visits
+after 3 and 6 days. Nose and throat swabs were collected 
+from index subjects and all household contacts at each home visit and
+tested by RT-PCR. The primary outcome measure was laboratory-confirmed
+influenza infection in a household contact by RT-PCR; the
+secondary outcome was clinically diagnosed influenza by self-reported
+symptoms. We collected acute and convalescent sera from a subset of
+participants and tested for antibody titers to seasonal and pandemic
+influenza.</p>
+
+
+<h3><a name="data">2. Raw data</a></h3>
+
+<p>The latest version of the Hong Kong household transmission study is
+available to download as a zip file here:</p>
+<ul class="circle">
+  <li><a href="http://sph.hku.hk/data/HongKongHTSV1.zip" title="Hong
+  Kong household transmission data V1">HongKongHTSV1.zip</a>.
+</ul> 
+<p>This version of the dataset covers the transmission of influenza in households and 
+adherence to interventions, antiviral treatment, quantitative
+viral loads, serology, and data from recruiting clinics including
+presenting symptoms and rapid test performance.</p>
+
+<p>We provide our data under the <a 
+href="http://www.opendatacommons.org/odc-public-domain-dedication-and-licence/">Open 
+Data Commons Public Domain Dedication and License</a>, which is a version of open
+access for data. Under this licence we reserve no rights: 
+there are no restrictions on use of our data, and no requirement to cite
+our work or this website. However we would anticipate that for academic purposes the
+standard practice of referencing sources would apply. We would like to hear from 
+researchers who are using our data and we would be keen to work together on analyses.</p>
+
+
+<h3><a name="main">3. Main findings</a></h3>
+
+<p>The primary findings from our main study have been
+published in 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/20558368"
+title="full text of Cowling et al., 2010, Ann Int Med">Cowling et
+al. (2010, NEJM)</a>.
+
+Our main findings were that RT-PCR-confirmed secondary attack rates
+were similar among household contacts of index cases with pandemic
+and seasonal influenza A, while patterns in viral shedding and course
+of illness among index cases with pandemic and seasonal influenza A
+were similar.</p>
+
+<p>Results described in Cowling et al. (2010) are reproduced in the
+following scripts which can be run in
+<a href="http://www.r-project.org" title="R statistical software homepage">R</a>:</p>
+
+<ul class="circle">
+<li><a href="HTS_scripts/Table_1.r">Table 1 and Appendix Table 1</a>.<br>
+<li><a href="HTS_scripts/Table_2.r">Table 2</a>.<br>
+<li><a href="HTS_scripts/Table_3.r">Table 3</a>.<br>
+<li><a href="HTS_scripts/Figure_2.r">Figure 2</a>.<br>
+<li><a href="HTS_scripts/Appendix_Table_2.r">Appendix Table 2</a>.<br>
+<li><a href="HTS_scripts/Appendix_Figure_1.r">Appendix Figure 1</a>.<br>
+<li><a href="HTS_scripts/Appendix_Figure_2.r">Appendix Figure 2</a>.<br>
+<li><a href="HTS_scripts/Appendix_Figure_3.r">Appendix Figure 3</a>.<br>
+<li><a href="HTS_scripts/Appendix_Figure_4.r">Appendix Figure 4</a>.<br>
+<li><a href="HTS_scripts/Text_result.r">Other results described in the manuscript text.</a>.<br>
+</ul>
+
+<br>
+
+<h3><a name="further">4. Further work</a></h3>
+
+<p>We have further analyses underway using the data from our study. More details will follow later.</p>
+
+<br>
+
+
+<h3><a name="authors">Authors and investigators</a></h3>
+
+<p>The principal investigator of this study is
+<a href="http://www.hku.hk/cmd/staff/bio/cowling.htm">Ben Cowling</a>. The data were uploaded by 
+<a href="http://www.hku.hk/cmd/staff/bio/cowling.htm">Ben Cowling</a>, and the scripts were written by
+<a href="http://sph.hku.hk/faculty_and_staff_detail.php?id=57">Vicky Fang</a> 
+and <a href="http://www.hku.hk/cmd/staff/bio/cowling.htm">Ben Cowling</a>.</p>
+
+
+<h3><a name="comment">A comment on reproducible research</a></h3>
+
+<p>We fully support the <a href="http://dx.doi.org/10.1097/EDE.0b013e318196784a">increasing calls</a>
+from the academic community for 
+<a href="http://dx.doi.org/10.1093/aje/kwj093" title="Peng et al., 2006, AJE">epidemiologic analyses to be reproducible</a>,
+and <a href="http://dx.doi.org/10.1186/1745-6215-10-17" title="Hrynaszkiewicz and Altman, 2009, Trials">raw data from randomized controlled trials to be published</a>, as a part of the wider scientific endeavour to
+replicate results.
+Another example of this recommendation is in the <a
+href="http://www.qve-goodpracticeguide.org.uk/guide#TOC-2.4-Inputs">Good
+Practice Guide for Quantitative Veterinary Epidemiology</a>. 
+Here we have published the raw <em>anonymised</em> data from our
+household transmission study. We have also published
+scripts which allow the analyses in our published papers to be reproduced.</p>
+
+<p>Thousands of local people have given their time, and their families', as part of their
+participation in our studies,
+all in the expectation that our research studies will add to medical and scientific knowledge.
+Participants should also expect that we will make the best possible use of the information that
+we have collected about them. It would be difficult to argue that facilitating
+best use of the data by the research community need not involve releasing raw data.</p>
+
+<p>Publication of anonymised raw data has been approved by our local IRB and funding sources,
+and participants were advised that anonymised data would be published during the informed consent
+process. We anticipate that release of the raw data will:</p>
+<ul class="circle">
+ <li>Promote reproducibility of our results.
+ <li>Allow other investigators to conduct their own analyses on our data.
+ <li>Allow other investigators to compare our data with theirs, for
+   example to explore similarities and differences between research findings.
+ <li>Allow other investigators to prepare and plan for their own studies.
+</ul>
+
+
+
+<h3><a name="references">Publications</a></h3>
+
+<ol>
+<li><a name="ref1">Cowling BJ,</a> Chan KH, Fang VJ, et al.
+  Comparative epidemiology of pandemic and seasonal influenza A in
+  households. <i>New England Journal of Medicine</i>, 2010;
+  <b>362</b>:2175-84.
+  <a href="http://content.nejm.org/cgi/content/abstract/362/23/2175">[link]</a>
+  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20558368">[PubMed]</a>.<br>
+</ol>
+
+
+
+
+<h3><a name="acknowledgements">Acknowledgements</a></h3>
+
+<p>This project was supported with Federal funds from the National
+Institute of Allergy and Infectious Diseases, National Institutes
+of Health, under Contract No. HHSN266200700005C; ADB No. N01-AI-70005
+(NIAID Centers for Excellence in Influenza Research and Surveillance)
+and the Area of Excellence Scheme of the Hong Kong University Grants
+Committee (grant no. AoE/M-12/06). Further analyses were supported by
+the Harvard Center for Communicable Disease Dynamcs from the US
+National Institutes of Health Models of Infectious Disease Agent
+Study program (grant no. 1 U54 GM088558).</p>
+
+
+<br><hR>
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png">
+</a>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>. It was written by <a href="http://www.hku.hk/cmd/staff/bio/cowling.htm">Ben Cowling</a>
+<script type="text/javascript"><!--
+document.write('<a href=\"mailto:'+BC+'\">(email)<\/a>.');
+// --> </script>
+<br>
+
+<i>This page was last modified on
+<script type="text/javascript">
+<!-- date last modified
+var LMdate = new Date(document.lastModified);
+var Months = new Array(13);
+Months[1] = "January";  Months[2] = "February";  Months[3] = "March";
+Months[4] = "April";  Months[5] = "May";  Months[6] = "June";
+Months[7] = "July"; Months[8] = "August";  Months[9] = "September";
+Months[10] = "October"; Months[11] = "November"; Months[12] = "December";
+var LMday =   LMdate.getDate();
+var LMmonth = Months[LMdate.getMonth() + 1];
+var LMyear =  LMdate.getYear();
+if (LMyear < 2000) LMyear = LMyear + 1900;
+document.write(LMmonth + " " + LMday + ", " + LMyear+".");
+// -->
+</script></i><br><br>
+
+
+<a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-html401-blue"
+        alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4357841; 
+var sc_invisible=0; 
+var sc_partition=55; 
+var sc_click_stat=1; 
+var sc_security="ae9ba1a5"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="web stats" 
+href="http://www.statcounter.com/free_web_stats.html"><img class="statcounter" 
+src="http://c.statcounter.com/4357841/0/ae9ba1a5/0/" alt="web stats" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+<br><br>
+
+
+</div>
+
+<div id="rightcontent">
+
+<!--
+<h3 align="center">Authors</h3>
+
+<p align="center"><a href="http://www.hku.hk/cmd/staff/bio/cowling.htm">Ben Cowling</a><br>
+<a href="http://sph.hku.hk/faculty_and_staff_detail.php?id=57">Vicky Fang</a><br></p>
+-->
+
+</div>
+
+
+</body>
+
+</html>
